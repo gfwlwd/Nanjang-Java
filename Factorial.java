@@ -2,11 +2,11 @@ public class Factorial {
 	 // Print factorial of n
 	   public static void main(String[] args) {  
 		  // Set an initial breakpoint at this statement
-		   createFactural(17);
+		   createFactorial(17);
 	      //becomes negative number as int when n = 17
 	       
 	   }
-	   public static void createFactural(int n) {
+	   public static void createFactorial(int n) {
 long factorial =  1;
 	      // n! = 1*2*3...*n
 	      for (int i = 1; i <= n; i++) {

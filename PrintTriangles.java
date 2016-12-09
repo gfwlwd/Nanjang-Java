@@ -5,15 +5,16 @@ import java.util.List;
 public class PrintTriangles {
 
 	public static void main(String[] args) {
-		printPowerOf2Triangle(9);
-		printPascalTriangle1(7);
-		printPascalTriangle2(7);
+		int n = 14;
+		printPowerOf2Triangle(n);
+		printPascalTriangle1(n);
+		printPascalTriangle2(n);
 		System.out.println();
 
-		List<Integer> list = getRow(0);
+		List<Integer> list = getRow(n-1);
 		System.out.println(list);
-		List<Integer> list2 = getRow2(0);
-		System.out.println(list);
+		List<Integer> list2 = getRow2(n-1);
+		System.out.println(list2);
 
 	}
 	public static void printPowerOf2Triangle(int numRows) { 
@@ -76,13 +77,39 @@ public class PrintTriangles {
 		System.out.println();
 	}
 
+	public static long factorial(int n) {
+		long factorial =  1;
+		// n! = 1*2*3...*n
+		for (int i = 1; i <= n; i++) {
+			factorial = factorial * i;
+		}
+
+		return factorial;
+	}
+
 	private static void printPascalTriangle2(int numRows) {
 		System.out.println("(c) PascalTriangle2");
-		
-				
-				System.out.println();
+		for (int row = 0; row <= numRows-1; row++)
+		{
+			for (int col = numRows; col >= 0; col--) {
+				long k = factorial(col);
+				long n = factorial(row);
+
+				if ((row- col)>= 0)
+					System.out.printf( "%5d ",(n / ( k *factorial(row-col) )) ) ;
+				else
+					System.out.printf( "   ");
+
+			}
+
+			System.out.println();
+
+		}
+		System.out.println();
 	}
-	
+
+
+
 	public static List<Integer> getRow(int rowIndex) {
 		System.out.println("(d) PascalTriangleArrayList");
 		ArrayList<Integer> result = new ArrayList<Integer>();
@@ -105,15 +132,15 @@ public class PrintTriangles {
 		return result;
 	}
 	public static List<Integer> getRow2(int rowIndex) {
-	    ArrayList<Integer> result = new ArrayList<Integer>();
+		ArrayList<Integer> result = new ArrayList<Integer>();
 
-	    long col = 1;
-	    for (int row = 0; row <= rowIndex; row++) {
-	      result.add((int) col);
-	      col *= rowIndex - row;
-	      col /= row + 1;
-	      
-	    }
-	    return result;
-	  }
+		long col = 1;
+		for (int row = 0; row <= rowIndex; row++) {
+			result.add((int) col);
+			col *= rowIndex - row;
+			col /= row + 1;
+
+		}
+		return result;
+	}
 }
