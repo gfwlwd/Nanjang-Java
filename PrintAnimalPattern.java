@@ -16,7 +16,7 @@ public class PrintAnimalPattern {
 	}
 	public static void printF() {
 		System.out.printf("          '__'\n");
-		System.out.printf("          (\u00A9©)\n");
+		System.out.printf("          (\u00A5©)\n");
 		System.out.printf("  /========\\/\n");
 		System.out.printf(" / || %%%% ||\n");
 		System.out.printf("*  ||----||\n");

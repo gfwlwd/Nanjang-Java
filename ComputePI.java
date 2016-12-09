@@ -25,7 +25,7 @@ public class ComputePI {
 		} System.out.println(sum);
 		System.out.println(Math.PI);
 		System.out.printf("Difference between the values obtained and the Math.PI: %.20f \n\n", 
-				((double)Math.PI - sum));
+				(Math.PI - sum));
 	}
 
 	private static void getPrecision(double precision) {
@@ -36,14 +36,14 @@ public class ComputePI {
 			sumOld = sumNew;
 			sumNew += ((i % 2 == 0) ? 1 : -1) * (double) 4/(2*i + 1); 
 			++i;
-		} while( (double) Math.abs(sumNew - sumOld) >= precision);
+		} while( Math.abs(sumNew - sumOld) >= precision);
 		System.out.println("Method 2");
 		System.out.printf("Calculated items %d, PI = %.10f", i, sumOld);
 		System.out.println();
 
 
 		System.out.printf("Difference between the values obtained and the Math.PI: %.20f \n", 
-				((double)Math.PI - sumOld));
+				(Math.PI - sumOld));
 	}
 
 }

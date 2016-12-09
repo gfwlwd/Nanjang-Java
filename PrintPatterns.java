@@ -208,9 +208,9 @@ public class PrintPatterns {
 		System.out.println("\nPattern l");
 		for (int row = 1; row <= size; row++) {
 			for (int col = size; col >= 1; col--) {
-
+				
 				System.out.print(( col <= row ? ((row-col)+row)%10+" " : "  ") );
-
+				
 			}
 			for (int col = 1; col <= row-1; col++) {
 

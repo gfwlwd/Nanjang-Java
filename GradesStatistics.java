@@ -96,7 +96,7 @@ public class GradesStatistics {
 			median = ((double)array[array.length/2] + (double)array[array.length/2 - 1])/2;
 		}
 		else {
-			median = (double) array[array.length/2]; 
+			median = array[array.length/2]; 
 		}
 		return median;
 	}
