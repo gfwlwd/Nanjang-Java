@@ -1,3 +1,4 @@
+
 public class Arithmetic {
 
 
@@ -31,5 +32,4 @@ public class Arithmetic {
 			System.err.println("Error: invalid operator!"); 
 		}
 	}
-
 }

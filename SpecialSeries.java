@@ -9,7 +9,7 @@ public class SpecialSeries {
 
 	}
 	public static double sumOfSeries(double x, int numTerms) {
-		if (x < -1.0 || x > 1.0) { // check if x is betweeen -1 and 1
+		if (x < -1.0 || x > 1.0) {
 			System.out.print("Please enter a value between -1 and 1.");
 			return 0.0;
 		}
