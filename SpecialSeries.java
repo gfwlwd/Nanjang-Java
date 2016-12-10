@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 public class SpecialSeries {
 
@@ -41,3 +42,14 @@ public class SpecialSeries {
 		return Math.abs(result);
 	}
 }
+=======
+
+public class SpecialSeries {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+>>>>>>> origin/java
