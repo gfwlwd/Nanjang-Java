@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 public class SpecialSeries {
 
@@ -11,3 +12,14 @@ public class SpecialSeries {
 
 	}
 }
+=======
+
+public class SpecialSeries {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+>>>>>>> refs/remotes/origin/java
