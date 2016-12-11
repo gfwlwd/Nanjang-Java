@@ -1,6 +1,6 @@
 public class Tribonacci {
 	public static void main(String[] args) {
-		createTribonacci(20);      //Enter the amount you want to display
+		createTribonacci(50);      //Enter the amount you want to display
 	}
 
 	public static void createTribonacci(int nMax) {
@@ -13,7 +13,7 @@ public class Tribonacci {
 		int sum = 0;  // Need sum to compute average
 		double average = 0.0; // double average;
 
-		System.out.println("The first " + nMax + " Fibonacci numbers are:\n");
+		System.out.println("The first " + nMax + " Tribonacci numbers are:\n");
 		System.out.print(fnMinus1 +" "+ fnMinus2+" ");
 
 		while (n <= nMax) {  // n starts from 3

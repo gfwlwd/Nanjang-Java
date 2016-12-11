@@ -5,7 +5,7 @@ import java.util.List;
 public class PrintTriangles {
 
 	public static void main(String[] args) {
-		int n = 14;
+		int n = 7;
 		printPowerOf2Triangle(n);
 		printPascalTriangle1(n);
 		printPascalTriangle2(n);
@@ -13,8 +13,9 @@ public class PrintTriangles {
 
 		List<Integer> list = getRow(n-1);
 		System.out.println(list);
-		List<Integer> list2 = getRow2(n-1);
-		System.out.println(list2);
+		System.out.println();
+		
+		getRow2(n);
 
 	}
 	public static void printPowerOf2Triangle(int numRows) { 
@@ -126,21 +127,25 @@ public class PrintTriangles {
 
 			}
 			result.add(1);
-			System.out.println(result);
-
-		}System.out.println();
+			//System.out.println(result);
+			
+		}
+		
 		return result;
 	}
-	public static List<Integer> getRow2(int rowIndex) {
-		ArrayList<Integer> result = new ArrayList<Integer>();
-
-		long col = 1;
+	public static void getRow2(int rowIndex) {
+		System.out.println("(e) PascalTriangleArrayList");
+	
+		rowIndex-= 1; //6
+		int col = 1;
 		for (int row = 0; row <= rowIndex; row++) {
-			result.add((int) col);
-			col *= rowIndex - row;
-			col /= row + 1;
+			//result.add((int) col);
+			System.out.print(col+" ");
+			col *= rowIndex - row; //6 * 6 -1 = 30
+			col /= row + 1;// 30 / 2
 
 		}
-		return result;
+		
+		//return result;
 	}
 }

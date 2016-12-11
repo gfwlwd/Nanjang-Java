@@ -1,3 +1,5 @@
+import java.lang.reflect.Array;
+
 public class PrintArray {
 
 
@@ -5,19 +7,19 @@ public class PrintArray {
 	public static void main(String[] args) {
 		System.out.println("IntArrays:");
 		
-		//int[] emptyIntArray = new int[];
+		int[] emptyIntArray = new int[]{};
 		int[] singleElementIntArray = new int[]{1};
 		printArray(singleElementIntArray);
 		int[] multiElementIntArray = new int[]{1,2,3,4};
 		printArray(multiElementIntArray);
 		System.out.println("DoubleArrays:");
-		//double[] emptyDoubleArray = new double[];
+		double[] emptyDoubleArray = new double[]{};
 		double[] singleElementDoubleArray = new double[]{1.0};
 		printArray(singleElementDoubleArray);
 		double[] multiElementDoubleArray = new double[]{1.0,2.0,3.0,4.0};
 		printArray(multiElementDoubleArray);
 		System.out.println("FloatArrays:");
-		//float[] emptyFloatArray = new float[];
+		float[] emptyFloatArray = new float[]{};
 		float[] singleElementFloatArray = new float[]{1.0f};
 		printArray(singleElementFloatArray);
 		float[] multiElementFloatArray = new float[]{(float) 1.0,(float) 2.0,(float) 3.0,(float) 4.0};
