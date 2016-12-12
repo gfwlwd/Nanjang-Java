@@ -4,7 +4,7 @@ public class Factorial {
 		createFactorial(17);
 		//becomes negative number as int when n = 17
 		System.out.println(factorial(5));
-		System.out.println(factorialShort(16));
+		System.out.println(factorialShort(5));
 	}
 	public static void createFactorial(int n) {
 		long factorial =  1;
@@ -16,11 +16,10 @@ public class Factorial {
 	}
 	// Return the factorial of the given integer, recursively
 	public static int factorial(int n) {
-		if (n == 0) {
-			return 1;   // base case
-		} else {
-			return n * factorial(n-1);  // call itself	
-		}
+		if (n == 0) return 1;   // base case
+
+		return n * factorial(n-1);  // call itself	
+
 	}
 
 	public static int factorialShort(int n) {
