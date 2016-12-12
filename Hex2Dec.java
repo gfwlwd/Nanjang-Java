@@ -23,7 +23,7 @@ public class Hex2Dec {
 	}
 
 
-	private static boolean isHex(String hexStr)	{
+	public static boolean isHex(String hexStr)	{
 		for(int i = 0; i < hexStr.length(); i++)
 		{
 			if (Character.digit(hexStr.toLowerCase().charAt(i), HEX_RADIX) > 0 ) {
@@ -34,7 +34,7 @@ public class Hex2Dec {
 		return true;
 	}
 
-	static long convertHex2Dec(String hexStr) {
+	public static long convertHex2Dec(String hexStr) {
 		long number = 0;
 		int  digit;
 		for(int i = 0; i < hexStr.length(); i++) {

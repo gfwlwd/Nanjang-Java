@@ -30,7 +30,12 @@ public class NumberConversion {
 		System.out.print("Enter a number and radix:");
 		String in = input.next();
 		//check for input radix
-		System.out.print("Enter the input radix: ");		
+		System.out.print("Enter the input radix: ");	
+		//catch input errors, only allow int
+		while (!input.hasNextInt()) {
+			System.out.print("Invalid number try 2, 8, 10 or 16: ");
+			input.next(); 
+		}
 		inRadix = input.nextInt();
 		while ((inRadix != 2) && (inRadix != 8) && (inRadix != 10) && (inRadix != 16)) {
 			System.out.print("Invalid number try 2, 8, 10 or 16: ");		
@@ -38,6 +43,11 @@ public class NumberConversion {
 		}
 		//check for output radix
 		System.out.println("Enter the output radix:");
+		//catch input errors, only allow int
+		while (!input.hasNextInt()) {
+			System.out.print("Invalid number try 2, 8, 10 or 16: ");
+			input.next(); 
+		}
 		outRadix = input.nextInt();
 		while ((outRadix != 2) && (outRadix != 8) && (outRadix != 10) && (outRadix != 16)) {
 			System.out.print("Invalid number try 2, 8, 10 or 16: ");		
@@ -80,7 +90,7 @@ public class NumberConversion {
 			}
 		}
 		else {
-			result = "Not a valid Radix! ";
+			result = "Not a valid input Radix! ";
 			return result;
 		}
 
@@ -88,21 +98,21 @@ public class NumberConversion {
 		if (outRadix == 16) { // Hex output
 			out += Integer.toHexString(dec);
 		}
-		if (outRadix == 10) { // Dec output
+		else if (outRadix == 10) { // Dec output
 			out += dec;
 		}
-		if (outRadix == 8) { // Oct output
+		else if (outRadix == 8) { // Oct output
 			out += Integer.toOctalString(dec);		
 		}
-		if (outRadix == 2) { // Bin output
+		else if (outRadix == 2) { // Bin output
 			out += Integer.toBinaryString(dec);
 		}
 		else {
-			result = "Not a valid Radix! ";
+			result = "Not a valid output Radix! ";
 			return result;
 		}
 
-		//build result if no error
+		//build result string
 		result = "\""+in+"\" in radix "+inRadix+" is \""+out+"\" in radix "+outRadix+".";
 		return result; 
 

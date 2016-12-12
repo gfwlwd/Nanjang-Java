@@ -22,12 +22,12 @@ public class Oct2Dec {
 			System.out.printf("Error: Invalid octadecimal String \"%1$s\"\n", octStr);
 			return;
 		}        
-		System.out.printf("The equivalent decimal number for octadecimal \"%1$s\" is %2$d\n"
-				, octStr, convertOct2Dec(octStr));
+		String str = "The equivalent decimal number for octadecimal "+octStr+" is "+convertOct2Dec(octStr)+"\n" ;
+		System.out.print(str);
 	}
 
 
-	private static boolean isOct(String OctStr)	{
+	public static boolean isOct(String OctStr)	{
 		for(int i = 0; i < OctStr.length(); i++)
 		{
 			if (Character.digit(OctStr.toLowerCase().charAt(i), OCT) > 0 ) {
@@ -38,7 +38,7 @@ public class Oct2Dec {
 		return true;
 	}
 
-	private static long convertOct2Dec(String octStr) {
+	public static long convertOct2Dec(String octStr) {
 		long number = 0;
 		int  digit;
 		for(int i = 0; i < octStr.length(); i++) {

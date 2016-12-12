@@ -20,7 +20,7 @@ public class Bin2Dec {
 				, binStr, convertBin2Dec(binStr));
 	}
 
-	private static boolean isBin(String binStr)	{
+	public static boolean isBin(String binStr)	{
 		for(int i = 0; i < binStr.length(); i++)
 		{
 			if (binStr.charAt(i) == '0') {
@@ -34,7 +34,7 @@ public class Bin2Dec {
 		return true;
 	}
 
-	static int convertBin2Dec(String binStr) {
+	public static int convertBin2Dec(String binStr) {
 		int number = 0;
 		for(int i = 0; i < binStr.length(); i++)
 		{
