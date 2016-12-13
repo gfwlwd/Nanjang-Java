@@ -2,8 +2,8 @@
 public class RecursiveGCD {
 
 	public static void main(String[] args) {
-		int a = 100;
-		int b = 20;
+		int a = 99;
+		int b = 88;
 		gcd(a,b);
 		System.out.println("Result with recursion = "+rgcd(a,b));
 	}
