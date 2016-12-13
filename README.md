@@ -4,7 +4,7 @@ Nanjang Java Course
 
 Java Programming Tutorial
 Exercises on Java Basics
-[link name](url_link){:target="_blank"}
+
 https://www.ntu.edu.sg/home/ehchua/programming/java/J2a_BasicsExercises.html
 
 TABLE OF CONTENTS <br />
@@ -22,7 +22,7 @@ TABLE OF CONTENTS <br />
 8.  Exercises on Command-line Arguments<br />
 9.  More (Difficult) Exercises<br />
 10.  Exercises on Recursion<br />
-11.  <a href="https://www.ntu.edu.sg/home/ehchua/programming/java/J2a_BasicsExercises.html#zz-11" target="blank">Exercises on Algorithms - Sorting and Searching</a><br />
+11.  <a href="https://www.ntu.edu.sg/home/ehchua/programming/java/J2a_BasicsExercises.html#zz-11" target="_blank">Exercises on Algorithms - Sorting and Searching</a><br />
   Exercise (Linear Search)<br />
   Exercise (Recursive Binary Search)<br />
   Exercise (Bubble Sort)<br />
