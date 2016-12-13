@@ -22,6 +22,12 @@ TABLE OF CONTENTS <br />
 8.  Exercises on Command-line Arguments<br />
 9.  More (Difficult) Exercises<br />
 10.  Exercises on Recursion<br />
-11.  Exercises on Algorithms - Sorting and Searching<br />
+11.  [Exercises on Algorithms - Sorting and Searching](https://www.ntu.edu.sg/home/ehchua/programming/java/J2a_BasicsExercises.html#zz-11.)<br />
+  Exercise (Linear Search)<br />
+  Exercise (Recursive Binary Search)<br />
+  Exercise (Bubble Sort)<br />
+  Exercise (Selection Sort)<br />
+  Exercise (Insertion Sort)<br />
+  Exercise (Recursive Quick Sort)<br />
 12.  Exercises on Algorithms - Number Theory<br />
 13.  Final Notes<br />
