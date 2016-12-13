@@ -1,4 +1,4 @@
-public class Factorial {
+public class FactorialRecursion {
 	// Print factorial of n
 	public static void main(String[] args) {  
 		createFactorial(17);
