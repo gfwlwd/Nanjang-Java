@@ -38,7 +38,7 @@ Exercise PrintPattern (nested-loop)<br />
 8.   <a href="https://www.ntu.edu.sg/home/ehchua/programming/java/J2a_BasicsExercises.html#zz-8.">Exercises on Command-line Arguments<a/><br />
 9.   <a href="https://www.ntu.edu.sg/home/ehchua/programming/java/J2a_BasicsExercises.html#zz-9.">More (Difficult) Exercises<a/><br />
 10.   <a href="https://www.ntu.edu.sg/home/ehchua/programming/java/J2a_BasicsExercises.html#zz-10.">Exercises on Recursion<a/><br />
-11.  <a href="https://www.ntu.edu.sg/home/ehchua/programming/java/J2a_BasicsExercises.html#zz-11" target="_blank">Exercises on Algorithms - Sorting and Searching</a><br />
+11.  <a href="https://www.ntu.edu.sg/home/ehchua/programming/java/J2a_BasicsExercises.html#zz-11." target="_blank">Exercises on Algorithms - Sorting and Searching</a><br />
   Exercise (Linear Search)<br />
   Exercise (Recursive Binary Search)<br />
   Exercise (Bubble Sort)<br />
