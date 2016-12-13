@@ -22,7 +22,7 @@ TABLE OF CONTENTS <br />
 8.  Exercises on Command-line Arguments<br />
 9.  More (Difficult) Exercises<br />
 10.  Exercises on Recursion<br />
-11.  [Exercises on Algorithms - Sorting and Searching](https://www.ntu.edu.sg/home/ehchua/programming/java/J2a_BasicsExercises.html#zz-11.)<br />
+11.  <a href="https://www.ntu.edu.sg/home/ehchua/programming/java/J2a_BasicsExercises.html#zz-11" target="_blank">Exercises on Algorithms - Sorting and Searching</a>
   Exercise (Linear Search)<br />
   Exercise (Recursive Binary Search)<br />
   Exercise (Bubble Sort)<br />
