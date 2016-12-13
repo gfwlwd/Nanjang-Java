@@ -4,7 +4,7 @@ Nanjang Java Course
 
 Java Programming Tutorial
 Exercises on Java Basics
-
+[link name](url_link){:target="_blank"}
 https://www.ntu.edu.sg/home/ehchua/programming/java/J2a_BasicsExercises.html
 
 TABLE OF CONTENTS <br />
