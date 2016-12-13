@@ -7,7 +7,7 @@ Exercises on Java Basics
 
 https://www.ntu.edu.sg/home/ehchua/programming/java/J2a_BasicsExercises.html
 
-TABLE OF CONTENTS
+TABLE OF CONTENTS (HIDE)
 1.  Writing Good Programs
 2.  Exercises on Flow Controls
 2.1  Exercises on Conditional (Decision)
